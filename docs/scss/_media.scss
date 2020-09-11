@@ -1,0 +1,78 @@
+@media (max-width: 880px) {
+.footer__col,
+.footer__col-info {  
+  min-width: 198px; 
+}
+.footer__inner {
+  justify-content: center;
+}
+}
+@media (max-width: 770px) {	
+
+.header__video {
+	display: none;
+}
+.main__menu {  
+	display: flex;
+	align-items: center;
+}
+.aside-right {
+	display: none;
+}
+.crypto-list_-title {
+	display: none;
+}
+.menu__list-link--md {
+	display: none;
+}
+.main__content h2 {
+	font-size: 32px;
+	letter-spacing: .4px;
+}
+.aside-left {
+	padding-top: 10px;
+} 
+.main__content {
+	padding: 5px 3% 55px;
+}
+.main__content p {
+	font-size: 18px;
+	line-height: 24px;	
+}
+.main__content h3 {
+	font-size: 20px;
+	line-height: 28px;
+}
+.footer__col,
+.footer__col-info {
+	display: none;
+}
+
+}
+
+@media (max-width: 577px) {
+	.aside-left {
+		display: none;
+	}	.header__crypto {		   
+		flex-direction: column;
+		align-items: center;		 
+	}
+	.header__crypto-title {
+		text-align: center;
+		border-right: none; 
+		height: 75px; 	 		
+	}
+	.header__crypto-content {
+		border-top: 1px solid #ccc; 
+	}
+	.menu__list {
+		display: none;
+	}	
+	.main__content h3 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
+
+
+ 
