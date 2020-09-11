@@ -121,20 +121,26 @@ body {
       color: #ccc; 
     }
   }
-  input[type=text] {    
+  input[type=text] { 
+    width: 150px;   
     border: none;
     background: $bg;
-    padding: 3px 10px;
+    padding: 3px 30px 5px 10px;
     border-bottom: 1px solid #ccc;
   }
-  button {
-    position: absolute;
-    right: 100px;
-    top: 10px;
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
+  .item-search {
+    position: relative;
+    button {
+      position: absolute;
+      right: 0px;
+      top: 2px;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+    }
+
   }
+  
 }
 .header__video-link {
   height: 100%;  
