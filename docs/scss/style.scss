@@ -129,8 +129,8 @@ body {
   }
   button {
     position: absolute;
-    right: 15px;
-    top: 7px;
+    right: 100px;
+    top: 10px;
     border: none;
     background-color: #fff;
     cursor: pointer;
@@ -171,8 +171,7 @@ body {
   font-size: 40px;
   text-transform: uppercase;    
   font-weight: 100;      
-  padding: 0px 16px; 
-  
+  padding: 0px 16px;   
 }
 .header__crypto-content {   
   width: 100%;   
@@ -397,7 +396,7 @@ body {
     left: 0;
     top: 0;  
     border: 1px solid #ccc;
-    padding: 25px 10px;
+    padding: 25px;
   }
   p {
     margin: 5px 0px 30px 0px;
